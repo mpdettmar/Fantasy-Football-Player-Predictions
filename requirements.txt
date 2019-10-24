@@ -19,7 +19,7 @@ scipy==1.2.0
 sportsreference==0.4.6
 tweepy==3.8.0
 uritemplate==3.0.0
-urllib3==1.24.1
+urllib3==1.24.2
 virtualenv==16.2.0
 wcwidth==0.1.7
 
