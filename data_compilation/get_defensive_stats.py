@@ -42,4 +42,4 @@ defense_df = pd.DataFrame(
 	'points_allowed'
 	])
 
-defense_df.to_csv('../data/defensive_stats.csv', index=False)
+defense_df.to_csv('../data/opponents/defensive_stats.csv', index=False)
