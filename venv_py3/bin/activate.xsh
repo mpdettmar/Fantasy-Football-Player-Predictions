@@ -25,7 +25,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/michaeldettmar/Desktop/cours/Udacity ML/capstone/nfl_tweets/nfl-tweets-v1.0/venv_py3"
+$VIRTUAL_ENV = r"/Users/michaeldettmar/Desktop/cours/Udacity ML/capstone/Fantasy-Football-Player-Predictions/venv_py3"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

@@ -143,9 +143,9 @@ def main(args):
         get_tweets_single(api, idfile)
 
 if __name__ == '__main__':
-    main(['../data/tweets_raw/tweets.nfl.2010.weekly.csv', '../data/tweets/tweets.nfl.2010.weekly.text.csv'])
-    main(['../data/tweets_raw/tweets.nfl.2011.weekly.csv', '../data/tweets/tweets.nfl.2011.weekly.text.csv'])
-    main(['../data/tweets_raw/tweets.nfl.2012.weekly.csv', '../data/tweets/tweets.nfl.2012.weekly.text.csv'])
+    main(['../data/data_raw/tweets_meta/tweets.nfl.2010.weekly.csv', '../data/data_raw/tweets/tweets.nfl.2010.weekly.text.csv'])
+    main(['../data/data_raw/tweets_meta/tweets.nfl.2011.weekly.csv', '../data/data_raw/tweets/tweets.nfl.2011.weekly.text.csv'])
+    main(['../data/data_raw/tweets_meta/tweets.nfl.2012.weekly.csv', '../data/data_raw/tweets/tweets.nfl.2012.weekly.text.csv'])
 
 
 
