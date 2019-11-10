@@ -1,17 +1,17 @@
-'''
-Gets text content for tweet IDs
-Credit: https://stackoverflow.com/questions/28384588/twitter-api-get-tweets-with-specific-id
-'''
-
-# standard
-import csv
 from __future__ import print_function
+import csv
 import getopt
 import logging
 import os
 import sys
 import time
 import tweepy
+
+'''
+Gets text content for tweet IDs
+Credit: https://stackoverflow.com/questions/28384588/twitter-api-get-tweets-with-specific-id
+'''
+
 
 # global logger level is configured in main()
 Logger = None
@@ -29,7 +29,7 @@ def get_tweet_id(line):
     '''
     Extracts and returns tweet ID from a line in the input.
     '''
-    return line.split(',')[0]
+    return line.decode().split(',')[0]
 
 def get_tweets_single(twapi, idfilepath):
     '''
@@ -143,9 +143,9 @@ def main(args):
         get_tweets_single(api, idfile)
 
 if __name__ == '__main__':
-    main(['../data/data_raw/tweets_meta/tweets.nfl.2010.weekly.csv', '../data/data_raw/tweets/tweets.nfl.2010.weekly.text.csv'])
-    main(['../data/data_raw/tweets_meta/tweets.nfl.2011.weekly.csv', '../data/data_raw/tweets/tweets.nfl.2011.weekly.text.csv'])
-    main(['../data/data_raw/tweets_meta/tweets.nfl.2012.weekly.csv', '../data/data_raw/tweets/tweets.nfl.2012.weekly.text.csv'])
+    main(['../data/data_raw/tweets_meta/tweets.nfl.2010.weekly.csv', '../data/data_raw/tweets_text/tweets.nfl.2010.weekly.text.csv'])
+    main(['../data/data_raw/tweets_meta/tweets.nfl.2011.weekly.csv', '../data/data_raw/tweets_text/tweets.nfl.2011.weekly.text.csv'])
+    main(['../data/data_raw/tweets_meta/tweets.nfl.2012.weekly.csv', '../data/data_raw/tweets_text/tweets.nfl.2012.weekly.text.csv'])
 
 
 
