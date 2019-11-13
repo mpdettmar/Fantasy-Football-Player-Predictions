@@ -16,7 +16,9 @@ Further, we use Stanford Core NLP to perform sentiment analysis on the tweets. S
 To install required packages, simply create a Python 3 virtual environment and run the notebook 00_install_requirements.ipynb in the modeling_notebooks folder.
 
 #### Twitter API
-To retrieve Twitter data (notebook 01_pull_data.ipynb) you will need Twitter API credentials. Go to [Twitter's developer page](https://developer.twitter.com/) and apply for API access. Once you are granted access, save your API key, API secret, access token, and access token secret as environment variables respectively named TWITTER_API_KEY, TWITTER_API_SECRET, TWITTER_API_ACCESS_TOKEN, and TWITTER_API_ACCESS_SECRET
+To retrieve Twitter data (notebook 01_pull_data.ipynb) you will need Twitter API credentials. Go to [Twitter's developer page](https://developer.twitter.com/) and apply for API access. Once you are granted access, save your API key, API secret, access token, and access token secret as environment variables respectively named TWITTER_API_KEY, TWITTER_API_SECRET, TWITTER_API_ACCESS_TOKEN, and TWITTER_API_ACCESS_SECRET.
+
+Alternatively, tweets tagged with our sentiment analysis scheme are available in the data/data_modified/tweets folder.
 
 #### Stanford Core NLP
 You must set up a Core NLP server on the machine you plan to run the scripts on in order to perform sentiment analysis of the tweets (notebook 05_sentiment_analysis). To do so, first download the English version [on Core NLP's GitHub page](https://stanfordnlp.github.io/CoreNLP/). Unzip the file, navigate to the resultant folder in a Terminal window, and run the command: 
