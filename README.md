@@ -12,7 +12,7 @@ We start with raw data on player performance, game location and conditions, and 
 Further, we use Stanford Core NLP to perform sentiment analysis on the tweets. See setup instructions below.
 
 ## Setup
-#### Environement
+#### Environment
 To install required packages, simply create a Python 3 virtual environment and run the notebook 00_install_requirements.ipynb in the modeling_notebooks folder.
 
 #### Twitter API
