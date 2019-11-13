@@ -1,6 +1,11 @@
+# Get rid of .DS_Store
 .DS_Store
+
+# Ignore all files containing tweet text
 tweets.nfl.2010.weekly.text.csv
 tweets.nfl.2011.weekly.text.csv
 tweets.nfl.2012.weekly.text.csv
 tweets.csv
-venv_fantasy
+
+# Don't upload virtual environment
+/venv_fantasy
