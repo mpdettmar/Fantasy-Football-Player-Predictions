@@ -41,7 +41,7 @@ ipywidgets==7.4.2
 isort==4.3.21
 jedi==0.13.2
 jmespath==0.9.4
-joblib==0.14.0
+joblib==1.2.0
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.4
